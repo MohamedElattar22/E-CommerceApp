@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="90dp"
+        app:cardCornerRadius="120dp"
+        app:strokeWidth="0dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:id="@+id/catImg"
+            android:layout_width="match_parent"
+            android:src="@drawable/img_6"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:id="@+id/catTitle"
+        android:layout_width="74dp"
+        android:text="Mens wear"
+        android:fontFamily="@font/regular"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/DarkBlue"
+        android:layout_height="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/materialCardView"
+        app:layout_constraintStart_toStartOf="@+id/materialCardView"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+
+    </TextView>
+
+    </LinearLayout>
